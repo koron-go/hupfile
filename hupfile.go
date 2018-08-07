@@ -15,7 +15,7 @@ var (
 	ErrClosedAlready = errors.New("closed already")
 )
 
-// File is a write only file. It recieve SIGHUP and re-open the file.
+// File is a write only file. It receive SIGHUP and re-open the file.
 type File struct {
 	name    string
 	pidfile string
