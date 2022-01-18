@@ -30,5 +30,5 @@ $ kill -HUP `cat my.pid`
 How to install and update `hupredir`:
 
 ```console
-$ go install github.com/koron-go/hupfile/cmd/hupredir
+$ go install github.com/koron-go/hupfile/cmd/hupredir@latest
 ```
