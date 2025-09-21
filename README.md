@@ -24,7 +24,7 @@ How to rotate log:
 
 ```console
 $ mv my.log my.log.1
-$ kill -HUP `cat my.pid`
+$ kill -HUP $(cat my.pid)
 ```
 
 How to install and update `hupredir`:
