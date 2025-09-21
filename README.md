@@ -32,3 +32,5 @@ How to install and update `hupredir`:
 ```console
 $ go install github.com/koron-go/hupfile/cmd/hupredir@latest
 ```
+
+Or you can download the executable from [the release](https://github.com/koron-go/hupfile/releases/latest).
