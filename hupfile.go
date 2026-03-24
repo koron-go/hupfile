@@ -40,7 +40,7 @@ func New(name, pidfile string) (*File, error) {
 			return nil, err
 		}
 		_, err = pf.WriteString(strconv.Itoa(os.Getpid()))
-		f.Close()
+		pf.Close()
 		if err != nil {
 			return nil, err
 		}
