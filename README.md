@@ -2,7 +2,6 @@
 
 [![PkgGoDev](https://pkg.go.dev/badge/github.com/koron-go/hupfile)](https://pkg.go.dev/github.com/koron-go/hupfile)
 [![Actions/Go](https://github.com/koron-go/hupfile/workflows/Go/badge.svg)](https://github.com/koron-go/hupfile/actions?query=workflow%3AGo)
-[![Go Report Card](https://goreportcard.com/badge/github.com/koron-go/hupfile)](https://goreportcard.com/report/github.com/koron-go/hupfile)
 
 `hupfile` is a SIGHUP aware output only file which implement `io.WriteCloser`.
 When did it accepts SIGHUP, it reopen an underlying file.
